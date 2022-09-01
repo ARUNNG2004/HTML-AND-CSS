@@ -1,0 +1,21 @@
+.a{
+    color: blue;
+}
+.email{ 
+    color: blueviolet;
+}
+.email:hover{
+    color: aqua;
+}
+.email:active{
+    color:crimson;
+}
+.email:visited{
+    color:chartreuse;
+}
+.pseudo::before{
+    content: "I am "
+}
+.pseudo::after{
+    content: "."
+}
